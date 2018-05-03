@@ -25,11 +25,6 @@ public class Practice03SweepGradientView extends View {
         super(context, attrs, defStyleAttr);
     }
 
-    {
-        // 用 Paint.setShader(shader) 设置一个 SweepGradient
-        // SweepGradient 的参数：圆心坐标：(300, 300)；颜色：#E91E63 到 #2196F3
-    }
-
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
